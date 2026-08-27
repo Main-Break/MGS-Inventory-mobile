@@ -1,0 +1,39 @@
+# === Android / Gradle ===
+*.iml
+.gradle/
+/local.properties
+/build/
+**/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+release/
+
+# === Android Studio / IntelliJ ===
+.idea/
+*.hprof
+
+# === Artefatos de build ===
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# === Assinatura (NUNCA versionar) ===
+*.jks
+*.keystore
+keystore.properties
+
+# === Chaves e configs de serviço ===
+google-services.json
+
+# === Modelos / arquivos grandes ===
+# Modelo de detecção embarcado — distribuir via release/LFS, não no repo
+app/src/main/assets/*.tflite
+*.onnx
+*.pt
+
+# === Sistema operacional ===
+.DS_Store
+Thumbs.db
